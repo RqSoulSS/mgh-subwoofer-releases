@@ -214,18 +214,21 @@ a { color: inherit; text-decoration: none; }
 
 .how,
 .path,
+.log,
 .get {
   padding: clamp(3rem, 8vh, 5rem) var(--pad);
   max-width: calc(var(--max) + 2 * var(--pad));
   margin: 0 auto;
 }
 
-.how__head {
-  max-width: 28rem;
+.how__head,
+.log__head {
+  max-width: 32rem;
   margin-bottom: 2rem;
 }
 .how__head h2,
 .path h2,
+.log__head h2,
 .get h2 {
   margin: 0;
   font-family: var(--display);
@@ -235,11 +238,68 @@ a { color: inherit; text-decoration: none; }
   text-wrap: balance;
 }
 .how__head p,
+.log__head p,
 .get__box > p:not(.get__brand) {
   margin: 0.7rem 0 0;
   color: var(--mute);
   font-weight: 500;
   text-wrap: pretty;
+}
+
+.log__list {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+.log__item {
+  padding: 1.35rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.log__item header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.55rem 1rem;
+  margin-bottom: 0.7rem;
+}
+.log__item b {
+  font-family: var(--display);
+  font-size: 1.35rem;
+  letter-spacing: 0.02em;
+  color: var(--signal);
+}
+.log__item time {
+  color: var(--mute);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.log__item header span {
+  flex: 1 1 12rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.log__item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.45rem;
+}
+.log__item li {
+  position: relative;
+  padding-left: 1rem;
+  color: var(--mute);
+  font-weight: 500;
+  text-wrap: pretty;
+}
+.log__item li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 0.35rem;
+  height: 0.35rem;
+  background: var(--signal);
 }
 
 .how__list {
