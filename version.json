@@ -1,8 +1,8 @@
 {
   "version": "1.1.9r2",
-  "site": "https://rqsoulss.github.io/mgh-subwoofer-releases/",
+  "site": "https://mghmods.ru/mods/subwoofer/",
   "telegram": "https://t.me/Mghmods",
   "download": "https://github.com/RqSoulSS/mgh-subwoofer-releases/releases/latest",
   "notes": "Хотфикс: убран UTF-8 BOM из app.json — больше не падает меню Apps (Fatal Lua Error).",
-  "changelog": "https://rqsoulss.github.io/mgh-subwoofer-releases/#changelog"
+  "changelog": "https://mghmods.ru/mods/subwoofer/#changelog"
 }
