@@ -1,22 +1,21 @@
 (() => {
-  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (reduce) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-  const targets = document.querySelectorAll(
-    ".feats li, .steps li, .visual, .download__panel, .strip p"
+  const nodes = document.querySelectorAll(
+    ".how__list article, .path li, .get__box, .rail > div"
   );
-  targets.forEach((el) => el.classList.add("reveal"));
+  nodes.forEach((el) => el.classList.add("reveal"));
 
   const io = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
-        entry.target.classList.add("is-in");
+        entry.target.classList.add("in");
         io.unobserve(entry.target);
       });
     },
-    { threshold: 0.18, rootMargin: "0px 0px -8% 0px" }
+    { threshold: 0.16, rootMargin: "0px 0px -6% 0px" }
   );
 
-  targets.forEach((el) => io.observe(el));
+  nodes.forEach((el) => io.observe(el));
 })();
