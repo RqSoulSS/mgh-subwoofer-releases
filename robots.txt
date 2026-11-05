@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rqsoulss.github.io/mgh-subwoofer-releases/sitemap.xml
