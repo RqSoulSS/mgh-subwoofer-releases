@@ -44,16 +44,17 @@ code {
   width: 100%;
   max-width: 100%;
   margin-top: 0.65rem;
-  padding: 0.7rem 0.85rem;
+  padding: 0.65rem 0.85rem;
   border: 1px solid var(--line);
   background: #fff;
   color: var(--ink);
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: clamp(0.78rem, 2.2vw, 0.9rem);
-  line-height: 1.45;
-  white-space: normal;
-  overflow-wrap: break-word;
-  word-break: normal;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 .skip {
