@@ -37,12 +37,23 @@ code {
   background: rgba(12, 14, 18, 0.06);
   padding: 0.12em 0.4em;
   border-radius: 2px;
-  word-break: break-all;
-  overflow-wrap: anywhere;
-  white-space: normal;
+}
+
+.pathbox {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0.65rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: clamp(0.78rem, 2.2vw, 0.9rem);
   line-height: 1.45;
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
 .skip {
@@ -301,12 +312,12 @@ code {
   display: grid;
   grid-template-columns: 2.4rem minmax(0, 1fr);
   gap: 0.85rem;
+  align-items: start;
   padding: 1rem 0;
   border-top: 1px solid var(--line);
   color: var(--mute);
   font-weight: 500;
   text-wrap: pretty;
-  overflow-wrap: anywhere;
 }
 .path li::before {
   content: counter(step, decimal-leading-zero);
