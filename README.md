@@ -1,22 +1,12 @@
-﻿# MGH Subwoofer — Releases
+﻿# MGH Subwoofer
 
-Публичные сборки мода **MGH Subwoofer 2x12** для BeamNG.drive.
+Сайт мода: **https://rqsoulss.github.io/mgh-subwoofer-releases/**
 
-Исходники закрыты. Скачивай готовые ZIP во вкладке **[Releases](../../releases)**.
-
-## Что качать
+Скачать сборки: [Releases](https://github.com/RqSoulSS/mgh-subwoofer-releases/releases)
 
 | Файл | Для чего |
 |---|---|
-| `MGH SUB PACK.zip` | Готовый набор: solo-мод + `Мост с ПК.exe` + инструкция |
-| `MGH_Subwoofer_solo.zip` | Только мод (положить в `mods/`) |
+| `MGH_SUB_PACK.zip` | Мод + Мост с ПК + инструкция |
+| `MGH_Subwoofer_solo.zip` | Только мод |
 
-## Автор
-
-XrTokito
-
-## Установка (кратко)
-
-1. Распакуй `MGH SUB PACK` или положи `MGH_Subwoofer_solo.zip` в папку `mods` BeamNG
-2. Включи мод, поставь саб в Vehicle Config
-3. Для Spotify/Яндекс запусти `Мост с ПК.exe`
+Автор: XrTokito
