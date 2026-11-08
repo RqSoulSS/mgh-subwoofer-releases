@@ -1,8 +1,8 @@
 {
-  "version": "1.2.2",
+  "version": "1.2.1",
   "site": "https://mghmods.ru/mods/subwoofer/",
   "telegram": "https://t.me/Mghmods",
   "download": "https://github.com/RqSoulSS/mgh-subwoofer-releases/releases/latest",
-  "notes": "Фикс проверки обновлений: BeamNG sandbox не резолвит DNS — ходим на IP сервера.",
+  "notes": "Фикс уведомлений: проверка версии через IP (BeamNG sandbox не резолвит DNS).",
   "changelog": "https://mghmods.ru/mods/subwoofer/#changelog"
 }
