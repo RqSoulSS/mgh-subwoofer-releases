@@ -1,8 +1,8 @@
 {
-  "version": "1.2.1",
+  "version": "2.0",
   "site": "https://mghmods.ru/mods/subwoofer/",
   "telegram": "https://t.me/Mghmods",
-  "download": "https://github.com/RqSoulSS/mgh-subwoofer-releases/releases/latest",
-  "notes": "Фикс уведомлений: проверка версии через IP (BeamNG sandbox не резолвит DNS).",
+  "download": "https://github.com/RqSoulSS/mgh-subwoofer-releases/releases/tag/v2.0",
+  "notes": "MGH Subwoofer 2.0: Companion с иконкой и установкой мода/сервера, язык UI по core_locales (Automated), BeamMP pack_only и серверная музыка, баннер обновлений.",
   "changelog": "https://mghmods.ru/mods/subwoofer/#changelog"
 }
