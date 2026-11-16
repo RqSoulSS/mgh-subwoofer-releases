@@ -1,9 +1,9 @@
 {
   "version": "2.1",
-  "companion": "2.1",
+  "companion": "2.1.1",
   "site": "https://mghmods.ru/mods/subwoofer/",
   "telegram": "https://t.me/Mghmods",
   "download": "https://github.com/RqSoulSS/mgh-subwoofer-releases/releases/tag/v2.1",
-  "notes": "MGH Subwoofer 2.1: новая моделька саба (WIP), свежие текстуры и аккуратнее посадка в багажнике.",
+  "notes": "Companion 2.1.1: свой путь BeamNG userfolder (-userpath / перенос папки). Мод 2.1 без изменений.",
   "changelog": "https://mghmods.ru/mods/subwoofer/#changelog"
 }
